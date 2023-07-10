@@ -12,16 +12,19 @@
 /* Body & common style start */
 body {
     font-family: 'Lato', sans-serif;
+
 }
 
 .primary-button {
+    display: inline;
     color: #FFF;
     font-weight: 700;
+    border: 0;
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
-    display: inline;
-    border: 0;
+
+
 }
 
 .primary-color {
@@ -97,11 +100,11 @@ body {
 }
 
 .featured-box {
-    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     vertical-align: bottom;
     align-items: end;
+    margin-top: 40px;
 }
 
 .featured-item {
@@ -140,16 +143,47 @@ body {
     text-decoration-line: underline;
     margin-top: 10px;
 }
-
 /* Our Featured Flowers Section Style end */
+
+/* Shop Section Style Start */
+.shop-container{
+    text-align: center;
+    padding: 0px 140px;
+    margin-bottom: 100px;
+}
+.product-column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.product-item-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    transition: .5s;
+}
+.product-item-image:hover{
+    border-radius: 2%;
+}
+.product-item-title{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.product-item-price{
+    font-size: 18px;
+    margin-top: 5px;
+}
+/* Shop Section Style End */
 
 /* Why Chose Us Section Style Start */
 .why-chose-container {
-    margin: 0px 140px;
-    padding: 50px 85px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-bottom: 100px;
+    margin: 0px 140px 100px;
+    padding: 50px 85px;
 }
 
 .why-chose-item {
@@ -182,8 +216,8 @@ body {
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 50px 140px;
     margin-bottom: 100px;
+    padding: 50px 140px;
 }
 
 .hot-deal-content {
@@ -200,8 +234,9 @@ body {
 
 /* Instagram section Start */
 .instagram-container {
-    padding: 0px 140px;
     margin-bottom: 100px;
+    padding: 0px 140px;
+
 }
 
 .instagram-post {
@@ -218,13 +253,13 @@ body {
 
 /* Subscribe Banner Section Start */
 .subscribe-form-container {
-    padding: 80px 200px;
-    margin: 0px 140px 100px;
     border-radius: 8px;
     background: url(./Flower-Asset/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    margin: 0px 140px 100px;
+    padding: 80px 200px;
 }
 
 .subscribe-form {
@@ -252,9 +287,10 @@ body {
 
 /* Footer style start */
 .footer-container {
-    padding: 100px 0px 50px;
+
     text-align: center;
     background: #111010;
+    padding: 100px 0px 50px;
 }
 
 .footer-title {
@@ -277,7 +313,8 @@ body {
     gap: 10px;
     margin-bottom: 20px;
 }
-.footer-social-icon img{
+
+.footer-social-icon img {
     width: 40px;
 }
 
