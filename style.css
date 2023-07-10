@@ -98,7 +98,7 @@ body {
 .section-title {
     color: #272727;
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 15px;
 }
@@ -175,7 +175,7 @@ body {
     padding:50px 140px 100px;
 }
 .all-products{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .product-column{
     display: flex;
@@ -189,7 +189,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    transition: .5s;
+    transition: .6s;
 }
 .product-item-image:hover{
     border-radius: 2%;
