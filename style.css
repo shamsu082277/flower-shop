@@ -13,6 +13,7 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 .primary-button {
     color: #FFF;
     font-weight: 700;
@@ -22,6 +23,7 @@ body {
     display: inline;
     border: 0;
 }
+
 /* Body & common style end */
 
 /* Header style start */
@@ -52,6 +54,7 @@ body {
 .banner-image img {
     height: 95vh;
 }
+
 /* Header style end */
 
 /* Main style start */
@@ -73,6 +76,7 @@ body {
     line-height: 25px;
     margin-bottom: 20px;
 }
+
 /* Section Style End*/
 
 /* Our Featured Flowers Section Style start */
@@ -128,6 +132,7 @@ body {
     text-decoration-line: underline;
     margin-top: 10px;
 }
+
 /* Our Featured Flowers Section Style end */
 
 /* Why Chose Us Section Style Start */
@@ -159,27 +164,46 @@ body {
     font-weight: 600;
     line-height: 35px;
 }
+
 /* Why Chose Us Section Style End */
 
 /* Hot Deal Section Start */
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-    margin-bottom: 100px;
+    background: rgba(229, 84, 115, 0.05);
     padding: 50px 140px;
+    margin-bottom: 100px;
 }
-.hot-deal-content{
-    display:flex;
+
+.hot-deal-content {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
-.hot-deal-image{
+
+.hot-deal-image {
     width: 30%;
 }
 /* Hot Deal Section End */
+
+/* Instagram section Start */
+.instagram-container{
+    padding: 0px 140px;
+    margin-bottom: 100px;
+}
+.instagram-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.instagram-image{
+    width:250px;
+}
+/* Instagram section End */
 
 
 /* Main style end */
