@@ -205,6 +205,14 @@ body {
 }
 /* Instagram section End */
 
+/* Subscribe Banner Section Start */
+.subscribe-container{
+    padding: 0px 100px;
+    margin: 0px 140px 100px;
+    border-radius: 8px;
+background: url(./Flower-Asset/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+/* Subscribe Banner Section End */
 
 /* Main style end */
 /* Footer style start */
