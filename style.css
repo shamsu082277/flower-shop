@@ -59,7 +59,6 @@ body {
 /* Header style end */
 
 /* Main style start */
-
 /* Section Style Start*/
 
 .section-title {
@@ -67,7 +66,7 @@ body {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .section-description {
@@ -115,10 +114,12 @@ body {
     padding: 50px 20px 0;
     background: rgba(167, 33, 98, 0.15);
 }
+
 .featured-image-two {
     padding: 94px 20px 50px;
     background: rgba(5, 151, 160, 0.15);
 }
+
 .featured-image-three {
     padding: 20px 20px 0;
     background: rgba(71, 125, 17, 0.15);
@@ -136,6 +137,38 @@ body {
 
 /* Our Featured Flowers Section Style end */
 
+/* Why Chose Us Section Style Start */
+
+.why-chose-container {
+    margin: 0px 140px;
+    padding: 50px 85px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 100px;
+}
+
+.why-chose-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.why-chose-item-img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.why-chose-item-caption {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* Why Chose Us Section Style End */
 
 
 /* Main style end */
