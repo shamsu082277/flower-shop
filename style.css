@@ -1,3 +1,10 @@
+/*  */
+/* 
+Special Note
+My device is width 1280px     
+Resolution is 1920*1080 (150%)
+*/
+/*  */
 /* Google font link */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
@@ -9,7 +16,10 @@
     box-sizing: border-box;
 }
 
-/* Body & common style start */
+/* All common style start */
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Lato', sans-serif;
 
@@ -19,14 +29,25 @@ body {
     display: inline;
     color: #FFF;
     font-weight: 700;
-    border: 0;
+    border: 1px solid transparent;
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
-
-
+    transition: .2s;
 }
-
+.primary-button:hover{
+    color: #272727;
+    border: 1px solid #272727;
+    background-color: transparent;
+    cursor: pointer;
+}
+.shop-section-linked{
+    text-decoration: none;
+}
+.shop-section-linked:active,.shop-section-linked:focus {
+    outline: none;
+    text-decoration: none;
+}
 .primary-color {
     color: #E55473;
 }
@@ -96,7 +117,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 100px 140px;
+    padding: 100px 140px 50px;
 }
 
 .featured-box {
@@ -148,8 +169,10 @@ body {
 /* Shop Section Style Start */
 .shop-container{
     text-align: center;
-    padding: 0px 140px;
-    margin-bottom: 100px;
+    padding:50px 140px 100px;
+}
+.all-products{
+    margin-bottom: 30px;
 }
 .product-column{
     display: flex;
