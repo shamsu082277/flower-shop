@@ -24,6 +24,14 @@ body {
     border: 0;
 }
 
+.primary-color {
+    color: #E55473;
+}
+
+.white-color {
+    color: #FFF;
+}
+
 /* Body & common style end */
 
 /* Header style start */
@@ -236,13 +244,49 @@ body {
 .subscribe-form-input::placeholder {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 /* Subscribe Banner Section End */
-
 /* Main style end */
+
 /* Footer style start */
+.footer-container {
+    padding: 100px 0px 50px;
+    text-align: center;
+    background: #111010;
+}
+
+.footer-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.footer-social-icon img{
+    width: 40px;
+}
+
+.footer-copywrite {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 15px;
+    font-weight: 400;
+}
+
 /* Footer style end */
 
 
