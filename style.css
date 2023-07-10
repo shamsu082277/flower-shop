@@ -41,6 +41,9 @@ body {
     background-color: transparent;
     cursor: pointer;
 }
+.right-icon{
+    margin-left: 10px;
+}
 .shop-section-linked{
     text-decoration: none;
 }
