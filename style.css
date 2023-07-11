@@ -44,6 +44,8 @@ body {
 .right-arrow-icon{
     margin-left: 10px;
 }
+
+/* Shop Now Button Style */
 .shop-section-linked{
     text-decoration: none;
 }
@@ -51,6 +53,7 @@ body {
     outline: none;
     text-decoration: none;
 }
+/* Website colors */
 .primary-color {
     color: #E55473;
 }
@@ -360,9 +363,4 @@ body {
 }
 
 /* Footer style end */
-
-
-
-
-
 /* Body style end */
